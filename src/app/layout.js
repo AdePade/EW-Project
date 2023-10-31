@@ -12,6 +12,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <head>
+          <meta charset="UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="description" content="Homeless Resources Hub - Your one-stop destination for finding shelters, food assistance, legal services, and support for those facing homelessness."/>
+          <meta name="keywords" content="homeless resources, shelters, food assistance, legal services, community support"/>
+          <meta name="author" content="Edward Cobbs"/>
+          <title>Homeless Resources Hub</title>
+
+        </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
