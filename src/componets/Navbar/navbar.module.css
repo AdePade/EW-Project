@@ -1,22 +1,21 @@
 .navbar {
-    display: flex;
-    width: 100%;
-    background-color: rgb(241, 242, 243);
-    list-style: none;
-    padding: 1rem;
-    font-size: larger;
-    font-weight: bolder;
-
+  display: flex;
+  width: 100%;
+  background-color: rgb(241, 242, 243);
+  list-style: none;
+  padding: 1rem;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .navbarItem {
-    flex: 1;
-    border-right: solid 1px black;
-    text-align: center;
+  flex: 1;
+  border-right: solid 1px black;
+  text-align: center;
 }
 .navbarItem:last-child {
-    border-right: none;
+  border-right: none;
 }
 .navbarItem:hover {
-    color: rgb(0, 58, 73);
+  color: rgb(0, 58, 73);
 }

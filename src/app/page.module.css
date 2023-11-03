@@ -15,7 +15,6 @@
 }
 
 .sections {
-  
   margin: 2rem;
   background-color: rgb(251, 242, 216); /* Background color for sections */
   border: 1px solid #ddd;
@@ -133,7 +132,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -269,67 +268,67 @@
   border: 0;
 }
 .body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .header {
-    background-color: #0078d4;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #0078d4;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
 .h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333; /* Add a custom color */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333; /* Add a custom color */
 }
 
 .h2 {
-    font-size: 1.8rem;
-    margin: 20px 0;
-    color: #0078d4; /* Add a custom color */
+  font-size: 1.8rem;
+  margin: 20px 0;
+  color: #0078d4; /* Add a custom color */
 }
 
 .p {
-    font-size: 1rem;
-    margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 .a {
-    color: #0078d4;
-    text-decoration: none;
+  color: #0078d4;
+  text-decoration: none;
 }
 
 .a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0078d4;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .skip-to-content {
-    position: absolute;
-    left: -9999px;
+  position: absolute;
+  left: -9999px;
 }
