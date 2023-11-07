@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <Navbar></Navbar>
       <div className={styles.pageContent}>
-      <Carousel></Carousel>
+        <Carousel></Carousel>
         <div className={styles.sections}>
           <h1>Welcome to Homeless Resources Hub</h1>
           <p>
@@ -56,7 +56,6 @@ export default function Home() {
         </div>
         <div className={styles.sections}>
           <h1>Why Choose Us</h1>
-          
         </div>
 
         <div className={styles.sections}>
