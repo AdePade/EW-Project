@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 600px;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item .image {
+    display: inline-block;
+}
+
+.simplicityBackground {
+    background-image: url('/pexels-mart-production-8078386.jpg');
+}
+.container {
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: center;
+}
+.descriptionBox {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+.slider {
+    width: 900px;
+    margin: 0 auto;
+}
